@@ -1,0 +1,8 @@
+{
+    "name": "Wall",
+    "type": "static",
+    "shape": "rectangle",
+    "width": 1000,
+    "height": 10,
+    "controller": "wall"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Player",
+    "type": "dynamic",
+    "description": "Player controlled character",
+    "shape": "omni",
+    "radius": 20,
+    "mass": 1,
+    "friction": { "collision": 50, "linear": 50, "rotational": 50 },
+    "sensors": [],
+    "controller": "lib/player.so"
+}

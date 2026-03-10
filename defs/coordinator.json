@@ -1,0 +1,6 @@
+{
+    "name": "Coordinator",
+    "type": "invisible",
+    "description": "Game manager agent",
+    "controller": "lib/coordinator.so"
+}

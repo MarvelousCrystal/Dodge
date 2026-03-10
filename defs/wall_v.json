@@ -1,0 +1,8 @@
+{
+    "name": "WallV",
+    "type": "static",
+    "shape": "rectangle",
+    "width": 10,
+    "height": 600,
+    "controller": "wall"
+}

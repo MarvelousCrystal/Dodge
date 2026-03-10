@@ -1,0 +1,51 @@
+{
+    "name": "Dodge!",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "seed": 0,
+    "buttons": [
+        {
+            "name": "restart",
+            "label": "Restart",
+            "style": { "background": "red", "border-color": "darkred", "color": "white" }
+        }
+    ],
+    "agents": [
+        {
+            "definition": "defs/player.json",
+            "style": { "fill": "#3498db", "stroke": "#2980b9" },
+            "position": { "x": 0, "y": 0, "theta": 0 }
+        }
+    ],
+    "references": [
+        {
+            "definition": "defs/obstacle.json",
+            "style": { "fill": "#e74c3c", "stroke": "#c0392b" },
+            "position": { "x": 0, "y": 0, "theta": 0 }
+        }
+    ],
+    "invisibles": [
+        {
+            "definition": "defs/coordinator.json",
+            "rendered": false
+        }
+    ],
+    "statics": [
+        {
+            "style": { "fill": "#2c3e50", "stroke": "none" },
+            "shape": [ {"x": -500, "y": -300}, {"x": 500, "y": -300}, {"x": 500, "y": -290}, {"x": -500, "y": -290} ]
+        },
+        {
+            "style": { "fill": "#2c3e50", "stroke": "none" },
+            "shape": [ {"x": -500, "y": 290}, {"x": 500, "y": 290}, {"x": 500, "y": 300}, {"x": -500, "y": 300} ]
+        },
+        {
+            "style": { "fill": "#2c3e50", "stroke": "none" },
+            "shape": [ {"x": -500, "y": -300}, {"x": -490, "y": -300}, {"x": -490, "y": 300}, {"x": -500, "y": 300} ]
+        },
+        {
+            "style": { "fill": "#2c3e50", "stroke": "none" },
+            "shape": [ {"x": 490, "y": -300}, {"x": 500, "y": -300}, {"x": 500, "y": 300}, {"x": 490, "y": 300} ]
+        }
+    ]
+}

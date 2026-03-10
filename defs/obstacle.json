@@ -1,0 +1,11 @@
+{
+    "name": "Obstacle",
+    "type": "dynamic",
+    "description": "Obstacle that rushes toward the center",
+    "shape": "omni",
+    "radius": 18,
+    "mass": 1,
+    "friction": { "collision": 0, "linear": 0, "rotational": 0 },
+    "sensors": [],
+    "controller": "lib/obstacle.so"
+}
